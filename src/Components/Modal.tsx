@@ -6,7 +6,7 @@ interface Props {
   onClose: () => void
   children: React.ReactNode
 }
-export default function InfoModal({ open, onClose, children }: Props) {
+export default function Modal({ open, onClose, children }: Props) {
   return (
     // backdrop
     <div
