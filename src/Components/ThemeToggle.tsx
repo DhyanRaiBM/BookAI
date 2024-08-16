@@ -3,7 +3,7 @@ import { FaMoon } from 'react-icons/fa'
 import { MdSunny } from 'react-icons/md'
 
 const ThemeToggle = () => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false)
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(true)
 
   useEffect(() => {
     const root = window.document.documentElement
